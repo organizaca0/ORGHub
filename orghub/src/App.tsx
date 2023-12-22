@@ -6,19 +6,31 @@ import Home from './componentes/Home/Home';
 import Objetivo from './componentes/Objetivo/Objetivo';
 import Projetos from './componentes/Projetos/Projetos';
 import Membros from './componentes/Membros/Membros';
-import Inscrição from './componentes/Membros/Inscrição';
+import Inscricao from './componentes/Inscricao/Inscricao';
 import Contatos from './componentes/Contatos/Contatos';
 
 function App() {
   return (
     <div >
       <Navbar/>
-      <Home />
-      <Objetivo />
-      <Projetos />
-      <Membros />
-      <Inscrição />
-      <Contatos/>
+      <div id="Home">
+        <Home />
+      </div>
+      <div id="Objetivo">
+        <Objetivo />
+      </div>
+      <div id="Projetos">
+        <Projetos />
+      </div>
+      <div id="Membros">
+        <Membros />
+      </div>
+      <div id="Inscricao">
+        <Inscricao />
+      </div>
+      <div id="Contatos">
+        <Contatos />
+      </div>
     </div>
   );
 }

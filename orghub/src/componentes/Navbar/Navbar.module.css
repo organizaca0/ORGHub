@@ -2,11 +2,21 @@
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: rgb(65, 65, 65);
+    background-color: #a1e6ff;
     border-bottom: 4px solid black;
-   
-    
 }
+.NavScrolled{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #a1e6ff;
+    border-bottom: 4px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
 .logoPage{
     margin: auto 15px;
     height: 80  px;
@@ -16,7 +26,7 @@
 }
 .Titulo{
     margin: auto 15px;
-    color: white;
+    color: #000;
 }
 
 
@@ -30,12 +40,12 @@
 }
 .link {
     display: block;
-    background-color: rgb(65, 65, 65);
+    background-color: #a1e6ff;
     color: white;
     text-decoration: none;
     padding: 32px 15px;
     transition: all 0.25s ease-out;
 }
 .link:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: #000;
 }
