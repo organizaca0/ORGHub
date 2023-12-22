@@ -1,7 +1,7 @@
-import styles from "./Inscrição.module.css"
+import styles from "./Inscricao.module.css"
 import {FC, useState, ChangeEvent } from "react"
 
-const Inscrição: FC = () => {
+const Inscricao: FC = () => {
     interface IMember {
         username: string
         email: string
@@ -15,20 +15,20 @@ const Inscrição: FC = () => {
             setUserName(event.target.value)
         }else {
             setEmail(event.target.value)
-        }   
+        }
     }
 
     const addMember = (): void => {
         const newMember = {username: username, email: email}
         setMembers([...members, newMember])
         console.log(members)
-        
     }
+
     return (
         <>
         <div className={styles.container}>
             <div className={styles.form}>
-                <h2>Escreva-se</h2>
+                <h2>Inscreva-se</h2>
                 <input type="text" placeholder="Nome" name='username' onChange={handleChange}/><br/>
                 <input type="text" placeholder="E-mail" name="email" onChange={handleChange}/><br />
                 <button onClick={addMember}>Inscreva-se</button>
@@ -40,4 +40,4 @@ const Inscrição: FC = () => {
     );
 }
 
-export default Inscrição;
+export default Inscricao;

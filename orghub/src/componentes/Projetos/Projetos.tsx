@@ -1,9 +1,9 @@
 import projeto from "../../images/security.jpeg"
 import styles from "./Projetos.module.css"
 
-const Projetos = () => {
+const Projetos = (props: { id: string | undefined; }) => {
     return (
-        <div className={styles.container}>
+        <div id={props.id} className={styles.container}>
             <div className={styles.projetos}>
                 <h2>Projetos</h2>
                 <img src={projeto} className={styles.userProjetos} alt="" />
