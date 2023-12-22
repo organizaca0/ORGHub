@@ -1,5 +1,5 @@
 import styles from "./Home.module.css"
-import logoHacking from "../../images/ethical-hacker-3378157-2810788.png"
+import logo from "../../images/ethical-hacker-3378157-2810788.png"
 const Home = () => {
     return (
     <div className={styles.container}>
@@ -7,7 +7,7 @@ const Home = () => {
             <h6>"Somos um grupo de programadores em crescimento e desejamos compartilhar nossas experiencias com o mundo."</h6>
         </div>
         <div className={styles.box2}>
-            <img src={logoHacking} alt="" />
+            <img src={logo} alt="" />
         </div>
     </div>);
 }

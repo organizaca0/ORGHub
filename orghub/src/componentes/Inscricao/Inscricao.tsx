@@ -2,6 +2,7 @@ import styles from "./Inscricao.module.css"
 import {FC, useState, ChangeEvent } from "react"
 
 const Inscricao: FC = () => {
+    
     interface IMember {
         username: string
         email: string
