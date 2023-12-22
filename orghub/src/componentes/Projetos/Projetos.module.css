@@ -1,0 +1,33 @@
+.container{
+    width: auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+   
+}
+
+.projetos {
+    display: block;
+    height: 400px;
+    width: 800px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.projetos h2 {
+    margin: 20px 0 0 20px;
+}
+.projetos img {
+    margin: 2% 16%;
+}
+
+
+.userProjetos {
+    height: 300px;
+    width: 500px;
+    background-position: center;
+    border-radius: 20px;
+
+
+}

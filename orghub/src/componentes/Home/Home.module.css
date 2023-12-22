@@ -1,0 +1,19 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.box1{
+    display: block;
+    width: 50%;
+    align-items: center;
+    padding: 60px;
+    font-size: 25px;
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-align: center;
+}

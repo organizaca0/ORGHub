@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: auto;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.userContainer {
+    display: block;
+    background-color: gray;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.userContainer img {
+    margin-top: 40%;
+}
