@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../../images/ORG ICON COM TEXTO.png"
+import logo from "../../images/orgIcon.png"
 import styles from "./Navbar.module.css"
 
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                 <li onClick={() => scrollToSection('Objetivo')} className={styles.components}><a className={styles.link} >Objetivo</a></li>
                 <li onClick={() => scrollToSection('Projetos')} className={styles.components}><a className={styles.link} >Projetos</a></li>
                 <li onClick={() => scrollToSection('Membros')} className={styles.components}><a className={styles.link} >Membros</a></li>
-                <li onClick={() => scrollToSection('Inscricao')} className={styles.components}><a className={styles.link} >Membros</a></li>
+                <li onClick={() => scrollToSection('Inscricao')} className={styles.components}><a className={styles.link} >Inscrição</a></li>
                 <li onClick={() => scrollToSection('Contatos')} className={styles.components}><a className={styles.link} >Contatos</a></li>
             </ul>
         </div>

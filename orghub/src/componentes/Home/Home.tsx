@@ -1,5 +1,5 @@
 import styles from "./Home.module.css"
-import logo from "../../images/ethical-hacker-3378157-2810788.png"
+import logo from "../../images/ORG ICON COM TEXTO.png"
 const Home = () => {
     return (
     <div className={styles.container}>
