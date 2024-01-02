@@ -41,11 +41,12 @@
 .link {
     display: block;
     background-color: #a1e6ff;
-    color: white;
+    color: #000;
     text-decoration: none;
     padding: 32px 15px;
     transition: all 0.25s ease-out;
 }
 .link:hover {
     background-color: #000;
+    color: #fff;
 }
