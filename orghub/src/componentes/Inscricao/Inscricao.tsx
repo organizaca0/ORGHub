@@ -29,6 +29,7 @@ const Inscricao: FC = () => {
         <>
         <div className={styles.container}>
             <div className={styles.form}>
+                <h1>AQUI É ONDE O WILL VAI MEXER</h1>
                 <h2>Inscreva-se</h2>
                 <input type="text" placeholder="Nome" name='username' onChange={handleChange}/><br/>
                 <input type="text" placeholder="E-mail" name="email" onChange={handleChange}/><br />
