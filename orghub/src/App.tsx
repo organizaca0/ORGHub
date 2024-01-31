@@ -5,9 +5,9 @@ import Navbar from './componentes/Navbar/Navbar';
 import Home from './componentes/Home/Home';
 import Objetivo from './componentes/Objetivo/Objetivo';
 import Projetos from './componentes/Projetos/Projetos';
-import Membros from './componentes/Membros/Membros';
 import Inscricao from './componentes/Inscricao/Inscricao';
 import Contatos from './componentes/Contatos/Contatos';
+import MembrosArray from './componentes/Membros/MembrosArray';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Projetos />
       </div>
       <div id="Membros">
-        <Membros />
+        <MembrosArray />
       </div>
       <div id="Inscricao">
         <Inscricao />
