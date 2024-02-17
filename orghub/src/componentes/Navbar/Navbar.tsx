@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../../images/orgIcon.png"
+import logo from "../../src/images/orgIcon.png"
 import styles from "./Navbar.module.css"
 
 
@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <div className={isScrolled ? styles.NavScrolled : styles.Nav}>
             <img src={logo} className={styles.logoPage} alt="logo" />
-            <h1 className={styles.Titulo}>A organização</h1>
+            <h1 className={styles.Titulo}>ORGANIZAÇÃO</h1>
             <ul className={styles.container_components}>
                 <li onClick={() => scrollToSection('Home')} className={styles.components}><a className={styles.link} >Home</a></li>
                 <li onClick={() => scrollToSection('Objetivo')} className={styles.components}><a className={styles.link} >Objetivo</a></li>
