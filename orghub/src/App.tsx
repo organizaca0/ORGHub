@@ -8,6 +8,7 @@ import Projetos from './componentes/Projetos/Projetos';
 import Membros from './componentes/Membros/Membros';
 import Inscricao from './componentes/Inscricao/Inscricao';
 import Contatos from './componentes/Contatos/Contatos';
+import Footer from './componentes/Footer/Footer';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       </div>
       <div id="Contatos">
         <Contatos />
+      </div>
+      <div id="footer">
+        <Footer/>
       </div>
     </div>
   );

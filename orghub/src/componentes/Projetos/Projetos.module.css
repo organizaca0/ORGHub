@@ -1,19 +1,29 @@
 .container{
     width: auto;
     height: 500px;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid black;
-   
+    margin: 1rem;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+}
+.container_projetos{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
 .projetos {
     display: block;
     height: 400px;
-    width: 800px;
+    width: auto;
     background-color: gray;
     border-radius: 20px;
+    margin: 3rem;
 }
 .projetos h2 {
     margin: 20px 0 0 20px;
@@ -22,12 +32,9 @@
     margin: 2% 16%;
 }
 
-
 .userProjetos {
     height: 300px;
     width: 500px;
     background-position: center;
     border-radius: 20px;
-
-
 }
