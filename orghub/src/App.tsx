@@ -5,10 +5,10 @@ import Navbar from './componentes/Navbar/Navbar';
 import Home from './componentes/Home/Home';
 import Objetivo from './componentes/Objetivo/Objetivo';
 import Projetos from './componentes/Projetos/Projetos';
-import Membros from './componentes/Membros/Membros';
 import Inscricao from './componentes/Inscricao/Inscricao';
 import Contatos from './componentes/Contatos/Contatos';
 import Footer from './componentes/Footer/Footer';
+import Membros from './componentes/Membros/Membros';
 
 function App() {
   return (
